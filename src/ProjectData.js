@@ -2,7 +2,7 @@
 
 function ProjectData() {
 
-
+return (
  [
     {
         title: "Task Organizer App",
@@ -23,6 +23,8 @@ function ProjectData() {
         codeLink: "https://github.com/zakward/VSchool/tree/main/assignments/Level%202/marios-pest-control"
     }
 ]
+
+)
 
 }
 
