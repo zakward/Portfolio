@@ -156,7 +156,7 @@ body {
 @media only screen and (max-width: 1275px) {
     .carousel {
         width: 48%;
-        height: 100px;
+        height: 278px;
         margin-left: 20px;
     }
 
@@ -166,7 +166,7 @@ body {
 
     .project-details {
         left: 104%;
-        bottom: 204%;
+        bottom: 104%;
     }
 
     .project-details > h2 {
@@ -181,7 +181,7 @@ body {
     }
 
     .project-carousel-container {
-        height: 320px;
+        height: 411px;
         padding-left: 0px;
         padding-bottom: 0px;
         justify-content: flex-start;
@@ -215,6 +215,7 @@ body {
         width: 22%;
         right: 111%;
         position: relative;
+        margin-top: 20px;
     }
 
     .code-btn {
@@ -296,7 +297,7 @@ body {
 
     .carousel {
         width: 48%;
-        height: 100px;
+        height: 245px;
     }
 
     .project-title {
@@ -304,8 +305,8 @@ body {
     }
 
     .project-details {
-        left: 104%;
-        bottom: 98%;
+        left: 82%;
+        bottom: 111%;
     }
 
     .project-details > h2 {
@@ -320,7 +321,7 @@ body {
     }
 
     .project-carousel-container {
-        height: 260px;
+        height: 327px;
         padding-left: 0px;
         padding-bottom: 0px;
     }
@@ -349,8 +350,9 @@ body {
 
     .github-btn-container {
         width: 27%;
-        right: 108%;
+        right: 94%;
         position: relative;
+        margin-top: 73px;
     }
 
     .code-btn {
@@ -377,6 +379,26 @@ body {
     .project-carousel-container {
         height: 285px;
     }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .carousel {
+        height: 100px
+    }
+
+    .project-details {
+        bottom: 256%;
+        left: 70%;
+    }
+
+    .github-btn-container {
+        margin-top: 0px;
+        right: 94%;
+        width: 33%;
+    }
+    
 
 }
 
