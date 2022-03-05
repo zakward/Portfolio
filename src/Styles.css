@@ -508,6 +508,10 @@ body {
         font-size: 18px;
     }
 
+    .bio-wrapper {
+        grid-template-columns: 40% 50%;
+    }
+
 }
 
 

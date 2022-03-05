@@ -510,6 +510,16 @@ body {
         width: 33%;
     }
 
+    .project-details {
+        left: 57%;
+        bottom : 234%;
+
+    }
+
+    .project-header {
+        margin-left: 20%;
+    }
+
 }
 
 }
