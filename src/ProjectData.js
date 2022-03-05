@@ -1,6 +1,9 @@
 
 
-export default ProjectData = [
+function ProjectData() {
+
+
+ [
     {
         title: "Task Organizer App",
         description: "Full Stack Web Application that allows a user to track completed or incomplete tasks for work, home, and school.  Saves tasks to a database with full CRUD functionality",
@@ -20,3 +23,7 @@ export default ProjectData = [
         codeLink: "https://github.com/zakward/VSchool/tree/main/assignments/Level%202/marios-pest-control"
     }
 ]
+
+}
+
+export default ProjectData
