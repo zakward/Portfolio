@@ -548,8 +548,8 @@ body {
     }
 
     .bio-wrapper {
-        grid-template-rows: 69% 25%;
-        height: 550px;
+        grid-template-rows: 74% 25%;
+        height: 592px;
     }
 
     .biography-container {
