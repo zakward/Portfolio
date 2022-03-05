@@ -102,7 +102,7 @@ body {
 }
 
 .github-btn-container {
-    border: 1px solid #795548;
+    /* border: 1px solid #795548; */
     display: flex;
     align-items: center;
     justify-content: center;
