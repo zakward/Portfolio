@@ -441,7 +441,7 @@ body {
         gap: 75px;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -497,7 +497,7 @@ body {
     }
 
     .bio-wrapper {
-        grid-template-rows: 55% 55%;
+        grid-template-rows: 70% 55%;
     }
 
     .skills-container {

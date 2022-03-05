@@ -502,6 +502,16 @@ body {
 
 
 }
+
+@media only screen and (max-width: 420px) {
+
+    .github-btn-container {
+        right: 115%;
+        width: 33%;
+    }
+
+}
+
 }
     @media only screen and (max-width: 375px) {
 
