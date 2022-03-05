@@ -1,8 +1,6 @@
 
 
-function ProjectData() {
-
-return (
+const ProjectData =
  [
     {
         title: "Task Organizer App",
@@ -24,8 +22,6 @@ return (
     }
 ]
 
-)
 
-}
 
 export default ProjectData
