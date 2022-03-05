@@ -1,17 +1,14 @@
 import React from "react"
 import "../Styles.css"
-import profilePic from "../profilepic.jpg"
 import profilePic2 from "../profilepic2.jpg"
-import email from "../391-mail4.png"
-import github from "../433-github.png"
-import linkedIn from "../458-linkedin.png"
+
 
 function Biography() {
     return (
         <>
             <div id = "bio-link" className = "bio-wrapper">
                 <div className = "profile-wrapper">
-                    <img  className = "profile-img" src = {profilePic2} />
+                    <img  className = "profile-img" src = {profilePic2} alt = "Zak" />
                     <h2 className = "profile-name">Zak Ward</h2>
                     <h3 className = "profile-description">Web Development</h3>
                     <div className = "icon-container">

@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import "../Styles.css"
 import ProjectData from "../ProjectData"
 import Project from "../components/Project"

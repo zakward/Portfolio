@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import "../Carousel.css"
 import ProjectData from '../ProjectData'
-import BackArrow from "../backArrow.png"
-import ForwardArrow from "../forwardArrow.png"
+
 
 
 

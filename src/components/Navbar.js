@@ -17,7 +17,7 @@ function Navbar() {
                     {/* <Link to = "/resume" className = "link">Resume</Link> */}
                     <a href = "#bio-link" className = "link">Home</a>
                     <a href = "#project-link" className = "link">Projects</a>
-                    <a href = {Resume} target = "_blank" className = "link">Resume</a>
+                    <a href = {Resume} target = "_blank" rel="noreferrer" className = "link">Resume</a>
                     
                </div>
            </div>

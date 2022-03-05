@@ -1,6 +1,6 @@
 
 
-export default [
+export default ProjectData = [
     {
         title: "Task Organizer App",
         description: "Full Stack Web Application that allows a user to track completed or incomplete tasks for work, home, and school.  Saves tasks to a database with full CRUD functionality",

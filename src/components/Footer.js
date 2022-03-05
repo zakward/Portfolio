@@ -1,6 +1,6 @@
 import React from "react"
 import "../Styles.css"
-import UpArrow from "../uparrow.png"
+
 
 function Footer() {
     return (

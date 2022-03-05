@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectData from "../ProjectData"
+
 
 function Project(props) {
 console.log(props.codeLink)
