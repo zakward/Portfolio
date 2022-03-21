@@ -15,8 +15,14 @@ const ProjectData =
         codeLink: "https://github.com/zakward/VSchool/tree/main/assignments/Level%204/level-4-capstone-app"
     },
     {
+        title: "Meal Journal App",
+        description: "Full Stack Web App that utilizes MongoDB and mongoose as the backend, and React Router as the frontend.  Utlizes axios for HTML requests and is complete with User Authentication",
+        imgUrl: "https://lh3.googleusercontent.com/_2jaLJaifUfjoacq2CDvyJWmbsidKY43q0Y-S1BvPfBQ2iyTj-InToIH9yFESTeczlGjLSmqwr2B8tq7u12fZ1okrD577L-Uea7wdbdYEnwkTZvGgZJI8N2hnGq9N04kRXEHFn7LLBV8QiZgLT2eiE1VDCYPErN1lg2rQ49nltRRzdpzn86t0Vj4yJsCKGwXAOSgXy9JxK59ZQEOE5L-fJerYAZ9wOrsnnYmSovWtYYMEF2M7wJQzVaf1TigCOsZdFF1lNuyLRsMyBhJqvFNm2qZJKPMAThRNGrZTwpk6HfQruVxnK66ebWJcvVBbuUhiDvqf7KDgB6LY4P5Mq8WR5AVqfJw5Zwviugrq3USwm1FINYboc6vuwQXBctnMlLUM7H9ETVb_oVaQ8lE6fmgVDjiJ8ejnDX0LCiV-mwycSo_9edVbWuE7ApL47qTAVxhGCdghsKEizKWVOxMxun_9PUryUfBlHIpaJ3B3i2u15VKiZU2HaEvdFyguSF5KYxNHlnRmg4us0HN4qIR5gegFmlLx2Wu803GHkHB6DfFa1uZqduIn68NsxsEfxo9-DQ3HsDsSYcgeTw2NfRnHBmGeGrOgbArx6AvfxXshzkjGYcm47c0IowJShyqh2TE_NeqRTpfvm_e9LjhYRSZoMrUCbYlNCbx83mtCEso2DOMi-sYQicSHpCzy5NcXg4aSy0iH_R9LQSgC0WkTdASkMkVtuq8RlS82nydRl3dNuipwIWPpvzPOAyEY2UPhHE4IqaQjcGI6Rw9qPhTcF-pXHdzKfI2fYLVpFPNE3z82A=w1904-h932-no?authuser=0",
+        codeLink: "https://github.com/zakward/VSchool/tree/main/assignments/Level%206/food-journal-app"
+    },
+    {
         title: "Marios Pest Control",
-        description: "Static website.  Showcases CSS styling and functionality",
+        description: "Static website.  Showcases CSS styling and functionality.  This app implemented simple math functions to create a tracker for Mario to keep up with goomba count in order to bill a client, in this case Princess Peach.",
         imgUrl : "https://lh3.googleusercontent.com/sGbWCv23Pld0ye992SGoVK_HgSUSI5pMfUBevQKrdbkdbdXLkwnmiIyHJ6a-oGsQetuYnKng3ez9rMTpnRnhie2sUPT0Zdo4CdeMDR26wlcjtK7E72UE_qZhVWNAxl6ysRd6XQnRJfRd9vQPT0EIYFpLgQGsHH0YUNjhULskxp8TmL8ddxm1fIRtvtiJwNeZ40rWtYmX3ncf2qqkyRqP3SRYqX8DpbACsBKmv9WxLTnrxyiRdsF8pnobkpSx3AeRdcxMxrVCAcJeWjIlq21JsRtb2EFnJP75ONATENxqrP4JvSDM3GipoK6umgQ5HRGp1Ft4_INgPqaopFaFzhItnIjFn2QbsLOxCSUyhKt12PnqB84GipeLTo6eNjanVc_DANnaxgbBxwDcBTuzmRCmLCxxVZI8S8u7cB0Lbr2FnQpL2Dss1OM-MSm_JNLYZIaaY1aMSZ2FPrN8jA3HyYKSVZ_wzUZggaOnT0dS3ye3vDkHqkFV0MYErIzwPCdqXlAs4iiIkkToVDK10s8onJdw-TjNT-dXFs3rpSuBbH7E2gjwLh0SEChnDmlNdixWHbYXD0hhE8tfgktiQfOxidalcXvuaLBoVw8iw0POCEoCh2vlP_lBBqJpa3cUEs3Vx4oerT00ShWSHV3eSMg2DeszLphR67FuQcr_m8ar4GdJvZ1tZOG2XaXyp1dG90HUTs1gYDRqM8SDamYBdYf2TUhprMU5SA=w1920-h936-no?authuser=0",
         codeLink: "https://github.com/zakward/VSchool/tree/main/assignments/Level%202/marios-pest-control"
     }
