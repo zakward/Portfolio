@@ -158,6 +158,10 @@ body {
     .project-details {
         bottom: 100%;
     }
+
+    .live-link {
+        left: 20%,
+    }
 }
 
 @media only screen and (max-width: 1275px) {
@@ -229,7 +233,14 @@ body {
         font-size: 7px;
     }
 
+    .live-link {
+        position: relative;
+        right: 85%;
+        bottom: 35px;
+    }
+
 }
+
 
 @media only screen and (max-width: 1000px) {
 
@@ -298,6 +309,12 @@ body {
         font-size: 7px;
     }
 
+    .live-link {
+        right: 75%;
+        bottom: 35px;
+        font-size: 11px;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -357,13 +374,17 @@ body {
 
     .github-btn-container {
         width: 27%;
-        right: 94%;
+        right: 117%;
         position: relative;
         margin-top: 73px;
     }
 
     .code-btn {
         font-size: 7px;
+    }
+
+    .live-link {
+        right: 80%;
     }
 
 }
@@ -402,8 +423,12 @@ body {
 
     .github-btn-container {
         margin-top: 0px;
-        right: 94%;
+        right: 120%;
         width: 33%;
+    }
+
+    .live-link {
+        right: 76%;
     }
     
 
@@ -466,7 +491,7 @@ body {
 
     .github-btn-container {
         width: 48%;
-        right: 115%;
+        right: 143%;
         position: relative;
     }
 
@@ -483,7 +508,7 @@ body {
     }
 
     .github-btn-container {
-        right: 122%;
+        right: 155%;
         width: 56%;
     }
 
@@ -507,13 +532,17 @@ body {
         margin-left: 26%;
     }
 
+    .live-link {
+        right: 89%;
+    }
+
 
 }
 
 @media only screen and (max-width: 420px) {
 
     .github-btn-container {
-        right: 115%;
+        right: 135%;
         width: 33%;
     }
 
@@ -538,7 +567,7 @@ body {
         }
     
         .github-btn-container {
-            right: 122%;
+            right: 152%;
             width: 56%;
         }
     
