@@ -48,6 +48,7 @@ function Carousel() {
                     <div className = "github-logo"></div>
                     <a href = {ProjectData[currProject].codeLink} className = "code-btn">View Code</a>
                 </div>
+                    <a href = {ProjectData[currProject].liveLink} className = "live-link">View LIVE site!</a>
             </div>
           </div>
       </>

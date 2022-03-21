@@ -134,10 +134,17 @@ body {
     /* border: 1px solid  #795548; */
 }
 
+.live-link {
+    text-decoration: none;
+    color: #795548;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 1400px) {
 
     .project-title {
         font-size: 30px;
+        color: #795548;
     }
 
     .project-details > h2 {
