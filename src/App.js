@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Projects from "./components/Projects"
-import {Routes, Route, Link} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 import AboutMe from "./components/AboutMe"
 import Campfire from "./components/Campfire"
 

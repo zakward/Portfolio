@@ -1,5 +1,5 @@
 import React from "react"
-import zakKids from "../images/zakKids.JPG"
+
 
 export default function AboutMe() {
     return (

@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react"
 import ProjectData from "../ProjectData"
-import Project from "./Project"
 import axios from "axios"
 import arrow from "../images/smallSpade.png"
 
@@ -10,7 +9,7 @@ export default function Projects() {
     const [currProj, setCurrProj] = useState(0)
     const [projects, setProjects] = useState([])
 
-    const [isViewDetails, setIsViewDetails] = useState(false)
+
 
     useEffect(()=> {
         axios.get("https://good-pear-sockeye-tam.cyclic.app/projects")
