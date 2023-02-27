@@ -1,20 +1,31 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-import Biography from "./components/Biography"
-import Footer from "./components/Footer"
-import Carousel from "./components/Carousel"
-import "./Styles.css"
+import Home from "./components/Home"
+import Projects from "./components/Projects"
+import {Routes, Route, Link} from "react-router-dom"
+import AboutMe from "./components/AboutMe"
+import Campfire from "./components/Campfire"
+
+import "./index.css"
 
 function App() {
+
+  
+
+
   return (
     <>
-      <Navbar />
-      <Biography />
-      {/* <ProjectList /> */}
-      <div className = "project-carousel-container">
-        <Carousel />
-        </div>
-      <Footer />
+    <Navbar />
+    <Routes>
+ 
+      <Route path = "/" element = {<Home />  }  />
+      <Route path = "/projects" element = {<Projects /> } />  
+      <Route path = "/about-me" element = {<AboutMe /> }  />  
+      <Route path = "/campfire" element = {<Campfire />} />
+    </Routes>
+    
+    
+
     </>
   )
 }

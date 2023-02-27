@@ -1,20 +1,17 @@
 import React from "react"
 
-
-function Project(props) {
-console.log(props.codeLink)
-
+export default function Project({...project}) {
     return (
         <>
-                {/* <div className = "project-details">
-                    <h1 className = "project-title">{props.title}</h1>
-                    <p className = "project-description">{props.description}</p>
-                    <p className = "name">Zak Ward</p>
-                    <a href = {props.codeLink} className = "code-btn">Code</a>
-                </div>
-                <hr className = "line-break" /> */}
+            <div className = "project-card" style = {{backgroundImage: `url(${project.imgUrl})`}}>
+
+            </div>
+
+            <div className = "project-card" id = "project-details">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+            </div>
+
         </>
     )
 }
-
-export default Project
