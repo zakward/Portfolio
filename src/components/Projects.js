@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react"
 import ProjectData from "../ProjectData"
-import Project from "./Project"
 import axios from "axios"
 import arrow from "../images/smallSpade.png"
 
@@ -10,7 +9,7 @@ export default function Projects() {
     const [currProj, setCurrProj] = useState(0)
     const [projects, setProjects] = useState([])
 
-    const [isViewDetails, setIsViewDetails] = useState(false)
+
 
     useEffect(()=> {
         axios.get("https://good-pear-sockeye-tam.cyclic.app/projects")
@@ -33,11 +32,11 @@ export default function Projects() {
         })
     }
     }
-
+    
 
 
     console.log(projects)
-
+        
  // { projects[currProj].imgUrl }
 
     return (
@@ -55,9 +54,9 @@ export default function Projects() {
             })}</div>
 
             <h3>Skills</h3>
-
+            
             <ul className = "skills-container">
-
+                            
                             <li>HTML</li>
                             <li>CSS</li> 
                              <li>Javascript</li>
@@ -66,10 +65,10 @@ export default function Projects() {
                             <li>Express</li>
                             <li>Mongoose/MongoDB</li>
                         </ul>
-
+               
         </div>
-
+              
         </>
-
+    
     )
 }
