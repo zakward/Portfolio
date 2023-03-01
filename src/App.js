@@ -16,9 +16,9 @@ function App() {
   return (
     <>
     <Navbar />
-    <Routes>
-      <Navbar />
- 
+
+    
+    <Routes> 
       <Route path = "/" element = {<Home />  }  />
       <Route path = "/projects" element = {<Projects /> } />  
       <Route path = "/about-me" element = {<AboutMe /> }  />  
