@@ -471,13 +471,18 @@ body {
 .footer-wrapper {
     height: 100px;
     width: 100%;
-    background-color:  #323442;
+    background-color:  rgba(75,118,69,1);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #98a6ad;
     font-size: 18px;
+}
+
+.footer-header {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 
@@ -498,7 +503,7 @@ body {
 
 @media only screen and (max-width: 1400px) {
 
-    .biography-title {
+    /* .biography-title {
         font-size: 35px;
     }
 
@@ -518,9 +523,6 @@ body {
         bottom: 90%;
     }
 
-    .project-header {
-
-    }
 
     .github-btn-container {
         width: 14%;
@@ -532,11 +534,11 @@ body {
 
     .carouselInner {
         height: 74%;
-    }
+    } */
 
 }
 
-@media only screen and (max-width: 1275px), (max-height: 950px) {
+/* @media only screen and (max-width: 1275px), (max-height: 950px) {
 
     .profile-img {
         width: 60%;
@@ -545,7 +547,7 @@ body {
 
     .skills-container {
         grid-column: 1/-1;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
         width: 100%;
         margin-top: 50px;
@@ -562,7 +564,7 @@ body {
 
     .github-btn-container {
         width: 14%;
-    }
+    } */
 
     /* .email {
         background-image: url("./32-email.png");
@@ -576,15 +578,15 @@ body {
         background-image: url("./32-linkedin.png");
     } */
 
-    .icon {
+    /* .icon {
         height: 50px;
         width: 50px
  }
 
     .icon-container {
         gap: 2px;
-    }
-}
+    } */
+
 
 @media only screen and (max-width: 950px) {
 
@@ -600,7 +602,7 @@ body {
         background-image: url("./32-linkedin.png");
     } */
 
-    .icon {
+    /* .icon {
         width: 34px;
     }
 
@@ -614,24 +616,24 @@ body {
 
     .bio-wrapper {
         height: 867px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 800px) {
 
-    .top-link {
+    /* .top-link {
         left: 0;
     }
 
     .biography-container {
         margin-left: 20px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 620px) {
 
-    .biography {
+    /* .biography {
         font-size: 9px;
     }
 
@@ -653,26 +655,26 @@ body {
 
     .biography-container {
         margin-left: 40px;
-    }
+    } */
 
 }
 
 @media only screen and (max-width: 550px) {
 
-    .bio-wrapper {
+    /* .bio-wrapper {
         grid-template-rows: repeat(2, 65%);
     }
 
     .skills-container {
         gap: 75px;
-    }
+    } */
 
 
 }
 
 @media only screen and (max-width: 500px) {
 
-    .nav-title {
+    /* .nav-title {
         margin-left: 65px;
     }
 
@@ -703,14 +705,48 @@ body {
 
     .links-container {
         margin-right: 8px;
-    }
+    } */
 
 }
 
 
 @media only screen and (max-width: 420px) {
 
-    .profile-name {
+    #name {
+        font-size: 16px;
+    }
+
+    .nav-li {
+        font-size: 16px;
+    }
+
+    .nav-items {
+        padding-left: 0px;
+    }
+
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -100px;
+    border: 2px solid;
+  }
+    
+  .home-tags {
+    position: relative;
+  }
+
+
+  .icon-container {
+    position: relative;
+    border-bottom: dashed rgba(75,118,69,1);
+    padding-bottom: 25px;
+  }
+
+  .home-container {
+    min-height: 565px;
+  }
+    /* .profile-name {
         font-size: 28px;
     }
 
@@ -736,14 +772,14 @@ body {
 
     .bio-wrapper {
         grid-template-columns: 40% 50%;
-    }
+    } */
 
 }
 
 
 @media only screen and (max-width: 375px) {
 
-    .profile-name {
+    /* .profile-name {
         font-size: 22px;
     }
 
@@ -808,6 +844,8 @@ body {
 
     .links-container {
         margin-right: 15px;
-    }
+    } */
 
 }
+
+

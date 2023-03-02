@@ -5,6 +5,7 @@ import Projects from "./components/Projects"
 import {Routes, Route} from "react-router-dom"
 import AboutMe from "./components/AboutMe"
 import Campfire from "./components/Campfire"
+import Footer from "./components/Footer"
 
 import "./index.css"
 
@@ -24,6 +25,8 @@ function App() {
       <Route path = "/about-me" element = {<AboutMe /> }  />  
       <Route path = "/campfire" element = {<Campfire />} />
     </Routes>
+
+    <Footer />
     
     
 
