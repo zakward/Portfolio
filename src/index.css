@@ -800,7 +800,11 @@ body {
 #projects-test-container {
     gap: 20px;
     padding-top: 25px;
-    height: 75vh;
+    height: 70vh;
+}
+
+.skills-container > li {
+    font-size: 12px;
 }
     /* .profile-name {
         font-size: 28px;
