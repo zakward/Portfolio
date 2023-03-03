@@ -50,7 +50,7 @@ export default function Projects() {
             </div>
             <h3>{ProjectData[currProj].title}</h3>
             <div className = "project-description-div">{ProjectData[currProj].description.map(item => {
-                return <li><span style = {{position: "relative", right: "12px", fontSize: "14px"}}>{item}</span></li>
+                return <li><span className = "bullet">{item}</span></li>
             })}</div>
 
             <h3>Skills</h3>
