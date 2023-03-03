@@ -170,7 +170,7 @@ body {
     padding-top: 50px;
     border-bottom: 5px solid rgba(75,118,69,1);
     border-top: 5px solid rgba(75,118,69,1);
-   background-color: lightsteelblue;
+     background-color: whitesmoke;
 }
 
 #campfire-container {
@@ -206,6 +206,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+
 }
 
 .left-arrow {
@@ -271,7 +272,11 @@ body {
     border-radius: 50%;
 }
 
-
+.bullet {
+    position: relative; 
+    right: 12px;
+    font-size: 14px;
+}
 
 /* Biography Section */
 
@@ -734,6 +739,7 @@ body {
     
   .home-tags {
     position: relative;
+    font-size: 24px;
   }
 
 
@@ -746,6 +752,55 @@ body {
   .home-container {
     min-height: 565px;
   }
+
+  #img-container {
+  height: 250px;
+  width: 400px;
+  gap: 2px;
+  }
+
+  #test-img {
+    height: 250px;
+    width: 350px;
+  }
+
+  .arrow {
+    width: 22px;
+    height: 250px;
+  }
+
+  .project-description-div {
+    font-size: 8px;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 2px dashed rgba(75,118,69,1);
+    padding-bottom: 25px;
+  }
+
+  .bullet {
+    position: relative;
+    right: 6px;
+  }
+
+  
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 75%;
+    align-items: flex-start;
+    font-family: 'Karla', sans-serif;
+    gap: 40px;
+  
+}
+
+#projects-test-container {
+    gap: 30px;
+    padding-top: 25px;
+}
     /* .profile-name {
         font-size: 28px;
     }
