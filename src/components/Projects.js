@@ -56,14 +56,23 @@ export default function Projects() {
             <h3>Skills</h3>
             
             <ul className = "skills-container">
+                            <div className = "skill-div">
+                                <li>HTML</li>
+                                <li>CSS</li> 
+                                <li>Javascript</li>
                             
-                            <li>HTML</li>
-                            <li>CSS</li> 
-                             <li>Javascript</li>
-                             <li>React/Remix/Redux</li>
-                            <li>Node.js</li>
+                           
+                                 <li>React</li>
+                                 <li>Remix</li>
+                                 <li>Redux</li>
+                           
+                           
+                                <li>Node.js</li>
                             <li>Express</li>
                             <li>Mongoose/MongoDB</li>
+
+                        </div>                        
+
                         </ul>
                
         </div>
