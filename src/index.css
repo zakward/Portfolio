@@ -722,7 +722,7 @@ body {
     }
 
     .nav-li {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .nav-items {
@@ -754,19 +754,19 @@ body {
   }
 
   #img-container {
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 350px;
   gap: 2px;
   }
 
   #test-img {
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
   }
 
   .arrow {
     width: 22px;
-    height: 250px;
+    height: 200px;
   }
 
   .project-description-div {
@@ -793,13 +793,14 @@ body {
     width: 75%;
     align-items: flex-start;
     font-family: 'Karla', sans-serif;
-    gap: 40px;
+    gap: 30px;
   
 }
 
 #projects-test-container {
-    gap: 30px;
+    gap: 20px;
     padding-top: 25px;
+    height: 75vh;
 }
     /* .profile-name {
         font-size: 28px;
