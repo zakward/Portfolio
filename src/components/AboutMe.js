@@ -14,6 +14,7 @@ export default function AboutMe() {
                     <li className = "bio">Veteran</li>  
                     <li className = "bio">Husband</li> 
                     <li className = "bio">Father</li>   
+                    <li className="bio">Farmer</li>
                 </div>
                 <div id ="aboutMe-pic">
 
