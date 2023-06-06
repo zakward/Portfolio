@@ -10,6 +10,86 @@ body {
     box-sizing: border-box;
 }
 
+
+/* TEST CAROUSEL   6/23 */
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    /* outline: 1px solid red; */
+}
+
+.carousel {
+    overflow: hidden;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    /* box-shadow: 0 50px 15px rgba(0,0,0,0.9); */
+}
+
+.carousel-img {
+    width: 40vw;
+    height: 50vh;
+    padding: 0 20px 0 20px;
+}
+
+
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;   
+    outline: 1px solie blue;
+}
+
+.carousel-item-description {
+    font-size: 1.15rem;
+    margin: 60px 0 60px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-buttons {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+
+
+
+
 /* Navbar Section */
 
 .nav-container {
@@ -244,8 +324,6 @@ body {
     flex-direction: column;
     gap: 70px;
     padding-top: 50px;
-    background-blend-mode: lighten;
-    
 }
 
 .bio-list {
@@ -888,6 +966,7 @@ font-size: 26px;
         width: 300px;
         padding-left: 45px;
         gap: 15px;
+        
     }
 
     .bio-list {
@@ -917,6 +996,30 @@ font-size: 26px;
 
 @media only screen and (max-width: 375px) {
 
+    .carousel {
+        width: 95vw;
+    }
+
+    .carousel-item {
+        flex-direction: column;
+        height: 70vh;
+        justify-content: space-around;
+    }
+
+    .carousel-img {
+        width: 90vw;
+        height: 20vh;
+        padding: 0;
+    }
+
+    .carousel-item-description {
+        font-size: 1rem;
+        margin: 30px 0 30px 0;
+    }
+
+    .carousel-wrapper {
+        justify-content: space-between;
+    }
     /* .profile-name {
         font-size: 22px;
     }

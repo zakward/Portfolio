@@ -8,6 +8,7 @@ import Campfire from "./components/Campfire"
 import Footer from "./components/Footer"
 
 import "./index.css"
+import Carousel from "./components/Carousel"
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     
     <Routes> 
       <Route path = "/" element = {<Home />  }  />
-      <Route path = "/projects" element = {<Projects /> } />  
+      <Route path = "/projects" element = {<Carousel/> } />  
       <Route path = "/about-me" element = {<AboutMe /> }  />  
       <Route path = "/campfire" element = {<Campfire />} />
     </Routes>

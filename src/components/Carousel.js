@@ -1,62 +1,63 @@
-import React, {useState} from 'react'
-import "../Carousel.css"
-import ProjectData from '../ProjectData'
+import React from "react";
+import CarouselItem from "./CarouselItem";
+import ProjectData from "../ProjectData";
+import { useState } from "react";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
+import { ListItemSecondaryAction } from "@mui/material";
 
+export default function Carousel() {
+  const [activeIndex, setActiveIndex] = useState(0);
 
-
-
-
-function Carousel() {
-
-    const [currProject, setCurrProject] = useState(0)
-
-    function backArrow() {
-        if (currProject > 0) {
-            setCurrProject(prevCurrProject => {
-            return prevCurrProject -1 
-        })
+  function updateIndex(newIndex) {
+    if (newIndex < 0) {
+      newIndex = 0;
+    } else if (newIndex >= ProjectData.length) {
+      newIndex = ProjectData.length - 1;
     }
-    }
 
-    function forwardArrow() {
-        if (currProject < ProjectData.length -1) {
-            setCurrProject(prevCurrProject => {
-            return prevCurrProject +1 
-        })
-    }
-}
+    setActiveIndex(newIndex);
+  }
 
   return (
-      <>
-          <div id = "project-link" className = "carousel">
-              <h1 className = "project-header">Projects</h1>
-            <div className = "carouselInner" style = {{backgroundImage: `url(${ProjectData[currProject].imgUrl})`}}>
-                <div className = "left">
-                    <div onClick = {backArrow} className = "back-arrow"></div>
-                </div>
-                <div className = "center">
-                </div>
-                <div className = "right">
-                <div onClick = {forwardArrow} className = "forward-arrow"></div>
-                </div>
-            </div>
-            <div className = "project-details">
-                <h1 className = "project-title">{ProjectData[currProject].title}</h1>
-                <h2>{ProjectData[currProject].description}</h2>
-                <h3>Zak Ward</h3>
-                   <div className = "github-btn-container">
-                    <div className = "github-logo"></div>
-                    <a href = {ProjectData[currProject].codeLink} className = "code-btn">View Code</a>
-                </div>
-                    <a href = {ProjectData[currProject].liveLink} className = "live-link">View LIVE site!</a>
-            </div>
+    <div className="carousel-wrapper">
+      <div className="carousel">
+        <div
+          className="inner"
+          style={{ transform: `translate(-${activeIndex * 100}%)` }}
+        >
+          {ProjectData.map((item, index) => {
+            return <CarouselItem item={item} />;
+          })}
+        </div>
+
+        {/* carousel buttons */}
+
+        <div className="carousel-buttons">
+          <ArrowBackIosIcon
+            className="button-arrow"
+            onClick={() => updateIndex(activeIndex - 1)}
+          />
+          {/* <button>Arrow Left</button> */}
+          <div className="indicators">
+            {ProjectData.map((item, index) => (
+              <RadioButtonCheckedIcon
+                className="indicator-buttons"
+                onClick={() => updateIndex(index)}
+                sx={{ fontSize: index === activeIndex ? 30 : 15 }}
+                // sx={{ color: { if (index === activeIndex){
+                //     "#4b7645" : "black"
+                // }  }}
+              />
+            ))}
           </div>
-      </>
-
-  )
+          <ArrowForwardIosIcon
+            className="button-arrow"
+            onClick={() => updateIndex(activeIndex + 1)}
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default Carousel
-
-
-      
