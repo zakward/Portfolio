@@ -5,7 +5,6 @@ import { useState } from "react";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
-import { ListItemSecondaryAction } from "@mui/material";
 
 export default function Carousel() {
   const [activeIndex, setActiveIndex] = useState(0);
